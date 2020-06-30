@@ -2,12 +2,12 @@
 
 let glyphStates = {
   "♡": "♥",
-  "♥": "♡"
+  "♥": "♡",
 };
 
 let colorStates = {
-  "red": "",
-  "": "red"
+  red: "",
+  "": "red",
 };
 
 // STEP 1: This code is what lets JavaScript find the elements that we want to make clickable.
@@ -43,7 +43,7 @@ for (let glyph of articleHearts) {
   glyph.addEventListener("click", likeCallback);
 }
 
-// STEP 4: 
+// STEP 4:
 
 // When all the STEPs' code changes have been complete, you'll be able to see a
 // working demonstration of our reference example. Sure, it's maybe not as
